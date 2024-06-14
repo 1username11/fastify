@@ -29,7 +29,7 @@
         "no-useless-constructor": "warn",
         "no-empty-function": "warn",
         "class-methods-use-this": "off",
-        "@typescript-eslint/explicit-member-accessibility": "error",
+        // "@typescript-eslint/explicit-member-accessibility": "error",
         "@typescript-eslint/explicit-function-return-type": "error",
         "max-len": "off",
         "no-param-reassign": "off"

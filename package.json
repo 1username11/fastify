@@ -7,19 +7,23 @@
     "dev": "nodemon src/index.ts",
     "build": "tsc",
     "start": "node dist/index.js",
-    "docker:env": "docker compose -p fastify -f docker-compose.env.yml --env-file .env.development up"
+    "docker:env": "docker compose -p fastify -f docker-compose.env.yml --env-file .env up"
   },
   "keywords": [],
-  "author": "Ermolaev Ilya <i.ermolaev@artsofte.ru>",
-  "license": "MIT",
+  "author": "Dorfman Aider",
+  "license": "",
   "dependencies": {
+    "dotenv": "^16.4.5",
     "fastify": "^4.11.0",
     "pg": "^8.11.3",
     "pg-hstore": "^2.3.4",
-    "sequelize": "^6.37.1"
+    "reflect-metadata": "^0.2.1",
+    "sequelize": "^6.37.1",
+    "sequelize-typescript": "^2.1.6"
   },
   "devDependencies": {
-    "@types/node": "^18.11.18",
+    "@types/node": "^18.19.26",
+    "@types/validator": "^13.11.9",
     "@typescript-eslint/eslint-plugin": "^5.48.0",
     "@typescript-eslint/parser": "^5.48.0",
     "eslint": "^8.31.0",
